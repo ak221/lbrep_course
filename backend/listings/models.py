@@ -1,5 +1,5 @@
 from django.core.files import File
-import io from BytesIO
+from io import BytesIO
 import PIL
 from random import choices
 from django.contrib.gis.db import models
